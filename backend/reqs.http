@@ -1,0 +1,30 @@
+POST http://localhost:5000/user/register
+
+###
+POST http://localhost:5000/user/login
+
+###
+GET http://localhost:5000/book/allBooks
+
+###
+GET http://localhost:5000/book/searchBook/think
+###
+GET http://localhost:5000/order/createPaymentSession
+
+###
+POST http://localhost:5000/cart/add-book
+Content-Type: application/json
+
+{
+    "bookId":5,
+    "userId":1
+}
+
+###
+GET http://localhost:5000/order//successfullPayment/:session_id/:userId
+
+###
+GET http://localhost:5000/order/successfullOrders/2
+
+###
+PUT http://localhost:5000/cart/quantity/

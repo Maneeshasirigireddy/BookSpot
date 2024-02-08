@@ -1,0 +1,9 @@
+{
+  "development": {
+    "username": "sa",
+    "password": "Anu@1234",
+    "database": "bookstore",
+    "host": "localhost",
+    "dialect": "mssql"
+  }
+}
